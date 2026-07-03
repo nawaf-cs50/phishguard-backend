@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+'virustotal' => [
+    'key' => env('VIRUSTOTAL_API_KEY'),
+],
+
+'safe_browsing' => [
+    'key' => env('GOOGLE_SAFE_BROWSING_API_KEY'),
+],
 ];
