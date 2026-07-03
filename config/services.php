@@ -42,4 +42,10 @@ return [
 'safe_browsing' => [
     'key' => env('GOOGLE_SAFE_BROWSING_API_KEY'),
 ],
+'webhook' => [
+    'secret' => env('WEBHOOK_SECRET'),
+],
+'n8n' => [
+    'webhook_url' => env('N8N_WEBHOOK_URL'),
+],
 ];
